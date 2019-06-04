@@ -2,22 +2,27 @@ body{
     margin: 0;
     font-family: 'Fredoka One', cursive;
     background-color: lightgray;
-    background: url(../images/fishnets-and-hearts.png);
+    background: url(../images/bg-img.png);
     background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
 }
 #game{
-    background-color: #fff;
     padding: 5rem;
-    margin: 5rem 0rem;
-    box-shadow: 1px 2px 5px 6.5px #d0cece;
+    padding-top: 20px;
+    border: 20px solid rgba(31, 92, 179, 0.74);
+    margin-top: 20px;
+    background-color: rgba(39, 57, 176, 0.56);
 }
-#game h1{
-    color: #006ebf;
+h1{
+    color: #03fdff;
     font-size: 3em;
+    
 }
 #game p{
     font-size: 1.5em;
 }
 #game p span{
-    color: #006ebf;
+    color: #03fdff;
 }
